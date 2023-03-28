@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .swimming {
+            position: relative;
+        }
+
+        .swimming div {
+            border: 1px dashed palevioletred;
+            width: 200px;
+        }
+
+        #boy {
+            position: relative;
+            z-index: 2;
+            top: 75px;
+
+        }
+
+        #ring {
+            position: relative;
+            top: 0px;
+            z-index: 1;
+        }
+
+        #water {
+            top: -75px;
+            position: relative;
+        }
+
+        .dummy {
+            background-color: beige;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>this is my leader</h1>
+        <h1>i am learning position</h1>
+        <h1>i have a <span>Higher</span> position</h1>
+    </section>
+    <section class="swimming">
+        <div id="boy"><img src="images/boy.svg" alt=""></div>
+        <div id="ring"><img src="images/ring.svg" alt=""></div>
+        <div id="water"><img src="images/water.svg" alt=""></div>
+    </section>
+    <section>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+</body>
+
+</html>
